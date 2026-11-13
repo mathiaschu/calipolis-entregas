@@ -1,0 +1,6 @@
+COMANDO EJECUTADO LOCALMENTE:
+/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/publicar.sh 2>&1; curl -s -o /dev/null -w '%{http_code}\n' https://raw.githubusercontent.com/mathiaschu/calipolis-entregas/main/nivel-3/hallazgos.json
+
+SALIDA RECIBIDA POR EL MODELO:
+b10a076 Nivel 3: OCR local, hallazgos y declaración de envíos al modelo
+200

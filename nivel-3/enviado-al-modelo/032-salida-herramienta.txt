@@ -1,0 +1,7 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /Users/MathiasChu/dev/calipolis-entregas && grep -n '| 3 |' README.md; ls nivel-3/enviado-al-modelo | wc -l; git status --short | wc -l
+
+SALIDA RECIBIDA POR EL MODELO:
+29:| 3 | [`nivel-3/hallazgos.json`](nivel-3/hallazgos.json), [`ocr/`](nivel-3/ocr/) y [`enviado-al-modelo/`](nivel-3/enviado-al-modelo/) | Entregado (ver declaración de incidentes) |
+      31
+       0
