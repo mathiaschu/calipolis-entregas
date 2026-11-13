@@ -1,0 +1,289 @@
+[
+  {
+    "pedido": "P1-01",
+    "cliente": "C101",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "TOM-CJ",
+        "cantidad": 2
+      },
+      {
+        "producto": "ACEL-AT",
+        "cantidad": 3
+      }
+    ],
+    "direccion": {
+      "calle": "Aleruma",
+      "altura": 510,
+      "nodo": 5
+    },
+    "franja": {
+      "desde": "09:00:00",
+      "hasta": "11:00:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-02",
+    "cliente": "C102",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "HUE-D12",
+        "cantidad": 0.5
+      },
+      {
+        "producto": "PAP-B5",
+        "cantidad": 2
+      }
+    ],
+    "direccion": {
+      "calle": "Brisalia",
+      "altura": 810,
+      "nodo": 58
+    },
+    "franja": {
+      "desde": "10:00:00",
+      "hasta": "12:00:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-03",
+    "cliente": "C103",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "LEC-CJ",
+        "cantidad": 1
+      },
+      {
+        "producto": "HUE-M30",
+        "cantidad": 2
+      }
+    ],
+    "direccion": {
+      "calle": "Cuarveta",
+      "altura": 1110,
+      "nodo": 111
+    },
+    "franja": {
+      "desde": "09:30:00",
+      "hasta": "11:30:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-04",
+    "cliente": "C104",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "RUC-AT",
+        "cantidad": 4
+      },
+      {
+        "producto": "ZAN-CJ",
+        "cantidad": 1
+      }
+    ],
+    "direccion": {
+      "calle": "Dorsavia",
+      "altura": 1410,
+      "nodo": 164
+    },
+    "franja": {
+      "desde": "11:00:00",
+      "hasta": "13:00:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-05",
+    "cliente": "C105",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "TOM-CJ",
+        "cantidad": 2
+      }
+    ],
+    "direccion": {
+      "calle": "Espiruna",
+      "altura": 1710,
+      "nodo": 217
+    },
+    "franja": {
+      "desde": "10:00:00",
+      "hasta": "12:00:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-06",
+    "cliente": "C106",
+    "estado": "ambiguo",
+    "items": [
+      {
+        "producto": "MAN-CJ",
+        "cantidad": 1
+      }
+    ],
+    "direccion": null,
+    "franja": {
+      "desde": "09:00:00",
+      "hasta": "12:00:00"
+    },
+    "motivos": [
+      {
+        "campo": "direccion",
+        "detalle": "Pide entregar en lo de su madre sobre Brisalia, pero el cliente tiene dos domicilios en esa calle (Brisalia 610 y Brisalia 1910) y nada indica cuál es el de la madre."
+      }
+    ]
+  },
+  {
+    "pedido": "P1-07",
+    "cliente": "C107",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "PAP-B5",
+        "cantidad": 3
+      },
+      {
+        "producto": "HUE-M30",
+        "cantidad": 1
+      }
+    ],
+    "direccion": {
+      "calle": "Aleruma",
+      "altura": 2310,
+      "nodo": 23
+    },
+    "franja": {
+      "desde": "12:00:00",
+      "hasta": "14:00:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-08",
+    "cliente": "C108",
+    "estado": "ambiguo",
+    "items": null,
+    "direccion": {
+      "calle": "Cuarveta",
+      "altura": 2610,
+      "nodo": 126
+    },
+    "franja": {
+      "desde": "10:30:00",
+      "hasta": "12:30:00"
+    },
+    "motivos": [
+      {
+        "campo": "items",
+        "detalle": "Pide 'lo de siempre' pero no tiene pedidos entregados en el historial: su único registro (05/11) es una consulta de catálogo sin pedido cerrado."
+      }
+    ]
+  },
+  {
+    "pedido": "P1-09",
+    "cliente": "C109",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "NAR-CJ",
+        "cantidad": 2
+      },
+      {
+        "producto": "BAN-KG",
+        "cantidad": 5
+      }
+    ],
+    "direccion": {
+      "calle": "Dorsavia",
+      "altura": 2910,
+      "nodo": 179
+    },
+    "franja": {
+      "desde": "09:00:00",
+      "hasta": "10:30:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-10",
+    "cliente": "C110",
+    "estado": "ambiguo",
+    "items": [
+      {
+        "producto": "ACEL-AT",
+        "cantidad": 6
+      }
+    ],
+    "direccion": {
+      "calle": "Espiruna",
+      "altura": 3210,
+      "nodo": 232
+    },
+    "franja": null,
+    "motivos": [
+      {
+        "campo": "franja",
+        "detalle": "Dice que recibe 'cuando salga del laburo', sin hora concreta; no hay datos de su horario laboral para fijar una franja."
+      }
+    ]
+  },
+  {
+    "pedido": "P1-11",
+    "cliente": "C111",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "HUE-M30",
+        "cantidad": 2
+      },
+      {
+        "producto": "BAT-B5",
+        "cantidad": 1
+      }
+    ],
+    "direccion": {
+      "calle": "Brisalia",
+      "altura": 3510,
+      "nodo": 85
+    },
+    "franja": {
+      "desde": "11:30:00",
+      "hasta": "13:30:00"
+    },
+    "motivos": []
+  },
+  {
+    "pedido": "P1-12",
+    "cliente": "C112",
+    "estado": "confirmado",
+    "items": [
+      {
+        "producto": "TOM-CJ",
+        "cantidad": 1
+      },
+      {
+        "producto": "HUE-D12",
+        "cantidad": 0.5
+      }
+    ],
+    "direccion": {
+      "calle": "Cuarveta",
+      "altura": 3810,
+      "nodo": 138
+    },
+    "franja": {
+      "desde": "10:00:00",
+      "hasta": "11:00:00"
+    },
+    "motivos": []
+  }
+]
