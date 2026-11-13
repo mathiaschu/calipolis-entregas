@@ -1,0 +1,14 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && rm -rf anon && python3 -I codigo/anonimizar.py --ocr ocr --salida anon --vocabulario /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/leyes-de-platon.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nucleos.txt
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301 {'renglones_omitidos': 16, 'domicilio': 0, 'numero': 6, 'desconocida': 218, 'nombre': 14}
+C-302 {'renglones_omitidos': 15, 'domicilio': 2, 'numero': 3, 'desconocida': 100, 'nombre': 9}
+C-303 {'renglones_omitidos': 14, 'domicilio': 0, 'numero': 4, 'desconocida': 248, 'nombre': 13}
+C-304 {'renglones_omitidos': 12, 'domicilio': 2, 'numero': 7, 'desconocida': 192, 'nombre': 19}
+C-305 {'renglones_omitidos': 8, 'domicilio': 0, 'numero': 21, 'desconocida': 148, 'nombre': 37}
+C-306 {'renglones_omitidos': 15, 'domicilio': 1, 'numero': 2, 'desconocida': 59, 'nombre': 9}
+C-307 {'renglones_omitidos': 15, 'domicilio': 0, 'numero': 4, 'desconocida': 102, 'nombre': 8}
+C-308 {'renglones_omitidos': 20, 'domicilio': 1, 'numero': 1, 'desconocida': 109, 'nombre': 12}
+C-309 {'renglones_omitidos': 18, 'domicilio': 1, 'numero': 7, 'desconocida': 142, 'nombre': 8}
+C-310 {'renglones_omitidos': 12, 'domicilio': 2, 'numero': 7, 'desconocida': 203, 'nombre': 26}

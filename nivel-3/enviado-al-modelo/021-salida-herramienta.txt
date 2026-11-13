@@ -1,0 +1,555 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && rm -rf anon && python3 -I codigo/anonimizar.py --ocr ocr --salida anon --vocabulario /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/leyes-de-platon.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nucleos.txt && cd codigo && python3 revisar.py --ocr ../ocr --anon ../anon --clasif ../clasif.json --conocidos /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301 {'renglones_omitidos': 13, 'domicilio': 0, 'fecha_conservada': 1, 'numero': 5, 'desconocida': 230, 'nombre': 10}
+C-302 {'renglones_omitidos': 11, 'domicilio': 2, 'fecha_conservada': 2, 'numero': 1, 'desconocida': 107, 'nombre': 5}
+C-303 {'renglones_omitidos': 12, 'domicilio': 0, 'numero': 4, 'desconocida': 253, 'nombre': 10}
+C-304 {'renglones_omitidos': 9, 'domicilio': 2, 'fecha_conservada': 1, 'numero': 6, 'desconocida': 196, 'nombre': 17}
+C-305 {'renglones_omitidos': 4, 'domicilio': 0, 'numero': 20, 'fecha_conservada': 1, 'desconocida': 163, 'nombre': 26}
+C-306 {'renglones_omitidos': 12, 'domicilio': 1, 'numero': 2, 'desconocida': 61, 'nombre': 8}
+C-307 {'renglones_omitidos': 12, 'domicilio': 0, 'fecha_conservada': 1, 'numero': 3, 'desconocida': 110, 'nombre': 6}
+C-308 {'renglones_omitidos': 14, 'domicilio': 1, 'fecha_conservada': 1, 'desconocida': 124, 'nombre': 4}
+C-309 {'renglones_omitidos': 13, 'domicilio': 1, 'fecha_conservada': 2, 'numero': 5, 'desconocida': 148, 'nombre': 8}
+C-310 {'renglones_omitidos': 9, 'domicilio': 2, 'fecha_conservada': 2, 'numero': 5, 'desconocida': 207, 'nombre': 25}
+== C-301: 10 cláusulas
+  C01 K04 sim 0.94 art.11 | CIFRAS catálogo=cuatro cero coma veinticinco ciento tres coma ocho ciento || ocr=cuatro cero coma veinticinco tres coma ocho ciento
+  C02 K13 sim 0.91 art.5 | CIFRAS catálogo=doce || ocr=2 doce
+  C03 K07 sim 0.93 válida | CIFRAS catálogo= || ocr=3
+  C04 K09 sim 0.96 válida | CIFRAS catálogo=una || ocr=5 una
+  C05 K02 sim 0.93 válida
+  C06 K06 sim 0.96 válida
+  C07 K11 sim 0.69 válida | CIFRAS catálogo=doce uno coma sesenta cinco || ocr=doce 6 1 3
+  C08 K08 sim 0.57 válida | CIFRAS catálogo= || ocr=08 195 9 9109 5 9
+  C09 K15 sim 0.59 válida | CIFRAS catálogo= || ocr=9 10 5
+  C10 K29 sim 0.71 art.19 | CIFRAS catálogo=dieciocho || ocr=10 5 1 1
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     calipolis» (2/09/2026 iystrumento qe diez [?] [?] y anexos:
+     unidad ocada- cabe del [?] [N], piso 2, unidad 1, calipolis- canon [?] pOr [NOMBRE] 2200 calines-
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     cláusula co- [?] los cuatro días de rolerancia» ¡a [?] genera interés simple giario de cero coma
+     % cláusula [?].A plazo inicial qe esta ocación ordinaria es de doce [?] completos [?] invoca rraslado
+     — cláusula c[N]a unidad se destina a pabitación- El canof se expresa [?] [?] en calines y se [?]
+     s- [?] ¡mporte indicado [?] carátula [?] NO estipulado expresamente rige [?] vigente de Las Leyes
+     3 de [?] [?] incorporan cormularios externos a condiciones de otros contratos
+     Ss cláusula [?]. Para las [?] de ejecución se prevé la ¡[?] [?] oficina de Locaciones y del
+     z vigente Toda propueste pendiente se aistinguirá ge una aceptación ya prestada.
+     [?] de las aperturas se dejará constancia [?] fecha de recepción una [?] adicional
+     imputación una suma aiscutida podrá registrarse como [?] en la constancia» sin que recibir el
+     cáusula [?].Se reciben doce muebles cuncionales individualizado en inventario [?]» sin contar
+     NS [?] NN 6
+     [?] as e [?] es de yo coma sesenta N cinco ¿[?] [?] No
+     ¿[?] ([N] [?] [?] [?] yu estado se 9 en A [?] y Na a. Las E de
+     [?]! [?] sus [NOMBRE] y [?] an acompañe ([N] [?] ¿[?] , 5 ng. iO as
+     [?] 9 so de [NOMBRE] [LL o [?] con YN cargo es no ea
+     [?] [?] [?] [?] [?] que [NOMBRE]! [?] de medial la ys Je [?] :
+     [?] [?] con ¡[?] [?] sin esper xa aviso ra [?] e misTO [?] Y [?] (o)
+     queda ([N]% pr ie e ingreso de ¿[?] de ¡[?] que ¿[?] en a¡[?] [?] [?] aun
+     Las partes [?] [?] nidad antes de [?] [?] [?]: se comproo pero de Puerto paso de
+     [?] en cocina y [?] y ——— qe 1OS [?] es. La revisión no ns e [?]" de
+     NE. ocultas cada Ese [?] [?] se [?] con secha y se comunicar por un
+     [?] sala e [?] an [?] [?] ¿[?] ¡UNO a [?] N [?] y [?] [?] de [?] [?] [?] ed
+     o esa se [?] ge pe o por esas [?] [?] N esta ca el [?] se deja una
+     [?] [?] ya Te [?] y de las ¡[?] Las partes [?] an [?]! ar copia de ig [?]"
+     va [?] de [?] ta recepción de esas [?] no [?] a CI ef en conducto” es [?] la
+     ¡[?] [?] ¿uando resulte [?]?- Se e el contacto gesignado para [?] [?] [?] 135 [?]
+     queda" ¡[?] [?] espadios qe USO [?] ¿[?] gescanso de escalera y [?] de V E
+     La [NOMBRE] qe esos espadios no [?] a [?]? [?] a impide su [?] por [?]
+     gemas ocupa Las incidencias se [?]" con [?] 1 Me e HU 190
+     ta [?] de us : ea HU NW [?] ; :
+     a [?] ¡[?] se [?] ingreso para [?] co [?] ye es de Y [?] renos .
+     T [?] ¡quida O" genera [?] e periodo y [?] ar su [NOMBRE] [?] Ta [?] [?] [?] la
+     Las [?] . realizadas qurante e recorrido se [?] [?] ¡uo q este [?] [?] EN este
+     anexo Y ic e 16 AL ,
+     na con [?] anicipada con gaños [?] ta entres de posesión Y la rendido" de ginero
+     ANEXO (1. [?] [?] [?] Y cONST [?] DS
+     [?] copio girmado en oficino-
+     Retiro" el vienes
+     La [?] [?] personal de [NOMBRE] [NOMBRE] [NOMBRE] constituye un único ¡nstrumento y se limita a dos coma
+     cuarenta cánones [?]. No se [?] a reformas no [?] El garante recibe e| misMO ejemplar
+     [[?] CON DATOS PERSONALES OMITIDO]
+     Folio 3 de 3
+== C-302: 10 cláusulas
+  C01 K24 sim 0.96 art.4
+  C02 K07 sim 0.96 válida | CIFRAS catálogo= || ocr=3
+  C03 K05 sim 0.94 válida | CIFRAS catálogo=nueve || ocr=
+  C04 K08 sim 0.95 válida | CIFRAS catálogo= || ocr=9
+  C05 K02 sim 0.94 válida
+  C06 K27 sim 0.90 art.16 | CIFRAS catálogo= || ocr=6
+  C07 K06 sim 0.65 válida | CIFRAS catálogo=una || ocr=1 3 302
+  C08 K14 sim 0.98 art.8
+  C09 K09 sim 0.97 válida
+  C10 K10 sim 0.94 válida | CIFRAS catálogo=veinticuatro || ocr=
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     Unidad locada: [DOMICILIO], Canon base POr ciclo; 2600 Calines,
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     S firma Y otra Vivienda habitua) [?]: en el aNexo; No se trata de Tefugio médico,
+     T Prueba Absoluta de Culpa 9 de CONformidag Con un Cargo todavía no [?] go
+     Folio 1 de 3
+     Cargo adiciona] Y sin Contar] como anima] de COMpañía,
+     Las Partes Tecorrieron la Unidad antes de Tecibir las llaves, Se [?] a Pertura de Puerta, Paso de
+     [?] en Cocina Y baño y [?],o de los INterruptoras La TeVisión no CONstituye EXamen de
+     ASistencia técnica Cuando Tesulte Necesaria, Se Utilizar; el Contacto designado [?] Coordinar las tareas,
+     Toda liquidación deberg [?]. el Período y CONseryar [?] [?] La [?] [?] identifica la
+     Las Observaciones Tealizadas durante el Tecorrido se CONServars, junto a Este documento, No hay EN Esta
+     Folio 2 [?]
+     Constancia Oficina de Locaciones [?]. Cursada tempora] de Nueve Ciclos, eMitida el 20/08/2026,
+     aNterior [?] firma, Se CONserya Otra Vivienda habitua disponible EN [DOMICILIO]
+     Unidad 5, Calípolis. No se Solicita Tefugio POr [?] [?] Médico,
+     La Earantía Persona] de [NOMBRE] [NOMBRE]] [NOMBRE] CONstituye un Único instrumento y se limita a dos Coma
+     Cuarenta Cánones base, No se [?] a Teformas no [?]. El Earante Tecibe el Mismo ejemplar
+     Areditan Tecepción y Manifestación de Voluntag. sin Modifica las Normas imperativa. de Calípolis.
+     Folio 3 de 3 .
+== C-303: 10 cláusulas
+  C01 K08 sim 0.92 válida
+  C02 K03 sim 0.94 art.18
+  C03 K11 sim 0.91 válida | CIFRAS catálogo=doce uno coma sesenta cinco || ocr=doce 3 uno coma sesenta cinco 5
+  C04 K02 sim 0.91 válida
+  C05 K06 sim 0.95 válida
+  C06 K26 sim 0.92 art.14 | CIFRAS catálogo=una dos doce || ocr=dos doce
+  C07 K30 sim 0.88 válida
+  C08 K18 sim 0.95 art.22 | CIFRAS catálogo=cuatro veintitres una cero coma noventa || ocr=cuatro 9 veintitres una cero coma noventa
+  C09 K09 sim 0.90 válida | CIFRAS catálogo=una || ocr=una 10 12
+  C10 K07 sim 0.91 válida | CIFRAS catálogo= || ocr=10 12 1
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     nidad ocada- cabe del [?] [N], piso 4, unidad 3, [NOMBRE] canon [?] por [NOMBRE] 2000 calines-
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?] [?] sus copias Y podrán acompañar [?] rechadas- Ninguna ¡image ni [?] se considera
+     Da cáusula [?] El pr [?] podrá inspecciona" la vivienda con doce horas qe aviso en [?] morario
+     p cáusula [?].5e reciben doce muebles [?] [?] en in [?] pilateral sin contar
+     z [?] de las [?] as. Se dejará constancia [?] fecha de recepción: una [?] adicional
+     ¿áusua [?]. A ¡[NOMBRE] entregará recibo ¿in Costo por cada suma percibida. [?] periodo e
+     mputación- una suma aiscutida podrá registrarse como [?] en la constancia» sin que recibir el
+     rolio 1 de 3
+     sin in [NOMBRE] ¡aQuisicion [?] pu [?] de pienes comunes:
+     causa [?]. Tras [NOMBRE] primeros cuatro ciclos. 9 calida con veintitrés días de preaviso [?] una
+     [?] [?] [?] [?] [?] de ejecución se prevé 1a ¡[?] ención [?] oficina de ¡ocaciones y del
+     [?] ([N] unidad se destina a pabitación: E canol se expresa [?] [?] en calines y se [?]
+     [?] importe indicado [?] carátula” [?] NO estipulado expresamente rige [?] vigente de Las Leyes
+     de plató [?] incorpor an cormularios externos AN condiciones de uo contratos:
+     ANEXO 1. [?] [?] ENTREG [A
+     Las partes recorriero" 1a unidad antes de recibir ¡as [?] es. Se comprobó apertura de puerta. paso de
+     [?]” ocultas: cada [?] [?] posterior se documentar? con gecha Y se comunicará por un
+     [?] [?] se [?] an marcas yniformes ¡[?] a ventanal y una variación ¡[?] de +[?] EN la pared
+     [?] [?] del revestimiento y de las ¡untas- Las partes podrán [?] ar copias de [?] resolución:
+     quedan ¡[?]” [NOMBRE] espacios qe uso común: ¿[?] gescanso de escalera y [?] de entilación-
+     La ectura de [?] se anoto a ingreso para [?]! co sumos E [?] de P eriodos anterior .
+     Toda [?] geberá [?] el periodo y [?] ar su comprobante” [?] [?] ¡[?] la
+     nidad, pero ¿ plano [?] del edificio permanece [?] oficina y no se incorpora como
+     Las [?] [?] realizadas qurante el recorrido se [?] [?] ¡[?] q este [?]” No haY en este
+     anexo una conformidad anticipada con daños uturos- La entrega de posesión y la gendición de ginero
+     [?] copio firmada en oficino-
+     rolio 2 de 3
+     A [?] [?] al. Los doce pienes ¿ie CN son ¡uedes xenOS y se [?]" en estado de
+     [?] cada parte [?]! ¿e 1¿[NOMBRE] con [?] Y [?] de [?]" ex esados en calines-
+     [?] o mesa [?] [?] estado” ¿no con SO N [?] regis [?] 99 calines
+     [?] 07" ¿na de respaldo : estado" ¿co con US [?] regis [?] 118 alines
+     [?] 03 yo m0 estado” ¿co con uso ao regis [?] 131 calines-
+     [?] 04 [?] estado" ¿uc con USO [?] regis [?]: 156 calines
+     [?] 05" ropero exeNo- estado” ¿nc con USO [?] regis [?]: 415 calines
+     [?] 00: cama ¿[?] estado" ¿union con USO" [?] regis [?]: 194 calines
+     [?] 07- co1chón [NOMBRE]" ¿union con USO [?] regis [?] 213 [?]”
+     [?] 08- [?]* de e: estado" ¿yn con USO ya [?] [?]: e calines-
+     [?] 09 escritor : estado" ¿union con uSo- [?] regis [?] 251 calines:
+     [?] 10- [?] estado" ¿[?] con USO ao [?] [?]: 210 caline>
+     [?] ue ¿10N- estado" ¿unción con uso [?] regis [?] 789 calines-
+     [?] 12: mesa ¿ua estado" [?] con USO ya regis [?]: 30% calines:
+     ta ga [?] persona" de [?] 1 [NOMBRE] as NI [?] [?]* un [?] ys y se [?] a doS coma
+     ¿[?] [?] [?] [?]: No se [?] a reformas no [?] E [?] recibe e mismo ¿ea
+     se [?] ¿[?] es de ¡[?] [?] [?] nexos [?] ¡[?] na ys [?] Las [?]
+     [?] [?] [?]" y [?] de ci sin [?] las "ormas ¡[?] [?] de calipolis-
+     Retiro copia pN! [N]
+== C-304: 10 cláusulas
+  C01 K02 sim 0.83 válida | CIFRAS catálogo=dos una || ocr=91 1629994 dos una
+  C02 K19 sim 0.84 art.17 | CIFRAS catálogo=treinta || ocr=5
+  C03 K01 sim 0.90 art.12 | CIFRAS catálogo=uno coma noventa || ocr=uno coma
+  C04 K08 sim 0.85 válida | CIFRAS catálogo= || ocr=0
+  C05 K23 sim 0.84 art.16 | CIFRAS catálogo=diecisiete || ocr=
+  C06 K32 sim 0.81 válida
+  C07 K09 sim 0.75 válida | CIFRAS catálogo=una || ocr=1 3
+  C08 K07 sim 0.80 válida | CIFRAS catálogo= || ocr=4 1
+  C09 K06 sim 0.92 válida | CIFRAS catálogo=una || ocr=1
+  C10 K22 sim 0.96 válida | CIFRAS catálogo= || ocr=1
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     CONTR, TO pp [NOMBRE] [NOMBRE] [?]
+     Calíporis 95/09/2025 [?], to de diez [?] [?] y Mexos
+     [NOMBRE] locada. [DOMICILIO]
+     Locadoy. [NOMBRE] [NOMBRE], [NOMBRE], DN[N]. [?] [NOMBRE] 7 SN [?]., [NOMBRE]. [DOMICILIO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?]. [NOMBRE] [?],, [NOMBRE],, [?] 54, [N]. [?] [NOMBRE] [?] [NOMBRE]. [?] de la
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     Contacio técnico designago. [?], [NOMBRE], [?] DN [N], 031; [?] Cu [N], -5,
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?], Co, La Mrega Materia; [?] dos Juegos de [?] [?] y la co [?], “[?], del
+     o [?] de las Berturas Se dejar CONStancis de la fecha de “Ecepción, Una llave [?];
+     q *Olicitad, [?] [?] Se [?], a su Costo “[?], Sin Cargo de Sestión,
+     Na [?] [?] [?], Toda “[?] EN [?] Será [?], Por ej locado,, dentro de einta días de [?]
+     N el [?]. iguaj Plazo se [?]; al Peligr, [?]; Para el [?].5 [?];
+     [?] [?] [?], La Parte [?];, Mrega un depósiró de uno Coma NOVent, Cánones base, La [?] se
+     S [?], [?], Los bienes en [?] Y su Estado se CONsigna, EN el [?] [?], Las Partes
+     S y [?], Sus Copias y Podrá, [?], [?],, “[?], Ningun, iMagen ni firma se “[?],
+     < Prueba [?], de Culpa 0 de [?] Con un Cargo [?], no [?]
+     [?] [?] del [NOMBRE] [NOMBRE] Y sin [?] [?] Clínica
+     Tribuna) “OMpeten te de [NOMBRE] Podrá Cordar Visitas técnica; y [?], dentro del TÉgimen
+     Folio 1 de 3
+     cláusula [?].La unidad sE gestina 4 pabitacion- El [?] se expresa ¿[?]" a a - .
+     Z 1 i e
+     [?] ¡porte indicado [?] carátula: [?] NO estipulado [?] rige el texto [?]
+     de plató no se incorporal gormularios externos n condiciones de otros contr [?]
+     cláusula [?]. E ocador entregará recibo IN costo [?] cada suma percipida, ¡[?]" perio e
+     imputación [?] suma giscutida podrá registrarse como [?] [?] constancia» sin que recib!r el
+     Las partes recorrieron 1a unidad antes de recibir [?] [?]: Se comprobó apertura de puerta paso de
+     [?] [?] se observan marcas uniformes ¡[?] al ventanal y una variación [?] de [?] eN la pared
+     cotografia del revestimiento y de [?] juntas: Las partes podrán conserv ar copias de igual resolución:
+     unidad, pero el plano ¿[?] del edificio permanece [?] oficina Y no se incorpora como
+     1,as [?] [?] realizada! qurante el recorrido se conservarán ¡[?] 4 este gocumento: No hay 1 este
+     anexo UNA [?] anticipada con daños futuros. ¡a entrega de posesión y la rendición qe dinero
+     ANEXO [?] [NOMBRE] Y CONST [?]
+     [?] copia firmada eN oficina. 8
+     La [?] [?] person! de [?] cero an soler an constituye un [?] sumen y se [?] 9 dos coma
+     cuarenta canones [?] No se [?] a reformas no [?]: Na garante recibe el mismo ejemplar
+     se [?] [?]" es de [?] [?]> [?] anexos pr ecedentes integr [?] [?] Las [?]
+     [?] [?] recepción y nanifestación de [?] sin modificar las normas ¡[?] [?] de calipolis-
+     Retiro copia DN! [N]
+     rolio 3 de 3
+== C-305: 10 cláusulas
+  C01 K09 sim 0.73 válida | CIFRAS catálogo=una || ocr=991 93807 521 39022206 2 una 02 14
+  C02 K02 sim 0.65 válida | CIFRAS catálogo=dos una || ocr=una 02 14 dos 91 una 3
+  C03 K05 sim 0.69 válida | CIFRAS catálogo=nueve || ocr=3 dos 3 94 14
+  C04 K28 sim 0.86 válida | CIFRAS catálogo=cuatro cero coma cero siete ciento dos coma uno ciento || ocr=94 14 cuatro cero coma cero siete dos coma uno ciento 95
+  C05 K36 sim 0.70 art.24 | CIFRAS catálogo= || ocr=uno ciento 95
+  C06 K21 sim 0.78 art.20 | CIFRAS catálogo=tres diez treinta dos coma nueve ciento veintisiete || ocr=diez dos coma ciento 7
+  C07 K12 sim 0.78 art.14 | CIFRAS catálogo=una sesenta || ocr=7 sesenta
+  C08 K08 sim 0.97 válida | CIFRAS catálogo= || ocr=9
+  C09 K07 sim 0.98 válida
+  C10 K06 sim 0.95 válida | CIFRAS catálogo=una || ocr=
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     CONTE o DE [?] [NOMBRE] 30
+     [NOMBRE] vocada- [?] de [?] [N] piso 1, [NOMBRE] 5, [?] canof [?] por dl” 2200 calines
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?]" [NOMBRE] [?] [?]*- pN [N]% [?] ¡co [N] AZ[N]- [?] EN [NOMBRE] qe 1OS
+     [?] [N] , piso O, [NOMBRE] 2, [?] T ¿[NOMBRE]” [N] pu [N] cu [NOMBRE] [NOMBRE] para pago y
+     [?] ante- ia [?] at aieso pN [N]% [?] ¡co [N] , [NOMBRE] cabe qe 1OS
+     [?] [N] piso 7, [NOMBRE] 3, [NOMBRE] Y ¿[NOMBRE]” [N] pa [N] [NOMBRE] [?] [NOMBRE] para pago y
+     Y ¿ne os: [N] .
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     para pagos y rentes os" [N] :
+     [?] co- [?] [?] [?] de [?]" se PT [?] la ¡[?]! ención [?] oficina de ocacion y de
+     [?]? [?] de Di te acordarse [?] recnicas y ¿[?] gentro de regio"
+     2 igene [?] YI puesta [?]" se [?] qe una aceptación ya Y estada:
+     o [?] ([N] entres marea comprende dos [?] qe Va es y compro conjunta de
+     3 [?] [?].Se pacta! queve ¡dos por cursada ([?] con [?] [?] oficina [?]! [?]
+     3 ¿[?] [N] [?] espués de cuatro días de ([?] gener? cero coma cero siete por [?]
+     ¿[?] 95. NE [?] [NOMBRE] de [?]» ¿[NOMBRE] podrá cortal e [?] qe ag y us la
+     prueba absoluta de culpa 9 de conformidad con uN cargo rodavía NO individualizado:
+     imputación [?] suma giscutida podrá registrarse como [?] [?] constancia, sin que recibir el
+     instalaciones ocultas- cada opservación posterior se gocumentará con fecha y se comunicará por UN
+     unidad, pero el plano ¡[?] del edificio permanece [?] oficina Y [?] incorpora como
+     [?] copia firmada €N oficina.
+     constancia oficina de Locaciones [?]: cursada remporal qe nueve ciclos, emitida el 99/08/2028
+     anterior [?] firma: Se conserva otra vivienda pabitual [?] en AY [NOMBRE] de los [?] [N], piso 6,
+     unidad 2, calipolis- No se solicita refugio por ¿ratamiento médico.
+     La [?] personal de [NOMBRE] [NOMBRE] [NOMBRE] constituye un único instrumento y se [NOMBRE] a dos coma
+     cuarenta cánones [?]. No se [?] a reformas no [?] E garante recibe e) mismo ejemplar
+     se [?] ejemplar es de igual [?]> los anexos precedente integran el iystrumento Las [?]
+     rolio 3 de 3
+== C-306: 10 cláusulas
+  C01 K02 sim 0.98 válida | CIFRAS catálogo=dos una || ocr=dos
+  C02 K08 sim 0.97 válida | CIFRAS catálogo= || ocr=9 3
+  C03 K06 sim 0.97 válida | CIFRAS catálogo=una || ocr=
+  C04 K09 sim 0.97 válida | CIFRAS catálogo=una || ocr=
+  C05 K16 sim 0.96 art.37
+  C06 K07 sim 0.98 válida
+  C07 K20 sim 0.98 válida
+  C08 K10 sim 0.97 válida
+  C09 K14 sim 0.96 art.8 | CIFRAS catálogo=doce ciento tres || ocr=doce tres
+  C10 K25 sim 0.99 art.18
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     — prueba absoluta de culpa 9 de conformidad con UN cargo rodavía no individualizado.
+     diecisiete del canon [?], con fundamento [?] artículo 36.
+     de Platón: no se incorporan rormularios externos pu condiciones de otros contratos.
+     rolio 1 de 3
+     unidad, pero el plano ¿dministrativo del edificio permanece [NOMBRE] oficina Y no se incorpora como
+     [?] copia firmada eN oficina.
+     rolio?2 de 3
+     La Earantía Persona] de [NOMBRE] [NOMBRE]] [NOMBRE] CONstituye UN único instrumento Y Se limita a dos coma
+     Cuarenta cánones base. No Se [?] a reformas no [?], El Earante Tecibe el mismo ejemplar
+     Folio 3 de 3
+== C-307: 10 cláusulas
+  C01 K06 sim 0.95 válida | CIFRAS catálogo=una || ocr=una 5
+  C02 K09 sim 0.96 válida | CIFRAS catálogo=una || ocr=3
+  C03 K08 sim 0.95 válida | CIFRAS catálogo= || ocr=9 3
+  C04 K13 sim 0.97 art.5 | CIFRAS catálogo=doce || ocr=4 doce
+  C05 K30 sim 0.94 válida
+  C06 K33 sim 0.96 art.26
+  C07 K02 sim 0.74 válida | CIFRAS catálogo=dos una || ocr=dos 1 3 307
+  C08 K29 sim 1.00 art.19
+  C09 K11 sim 0.99 válida
+  C10 K07 sim 0.99 válida
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     calípolis» (8/09/2028: nstrumento de diez ¿[?] y anexos-
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     S cláusula co. Para las [?] de ejecución se prevé la ¡[?] [?] oficina de ocaciones y del
+     3 cláusula [?]. Los pienes entregados [?] estado se consignan [?] anexo pilateral- Las partes
+     KC prueba apsoluta de culpa 9 de conformidad con UN cargo rodavía NO individualizado:
+     sin incluir ¿[?] [?] pe [?] de pienes comunes-
+     automáticas de entrega [?] plataforme sin respuesta mumana mi otra prueba.
+     funcionamiento de las aperturas- se dejará constancia [?] [?] de recepción [?] [?] adicional
+     MI [?] Ne J
+     rolio 1 de 3
+     [?] copia firmada en oficina. .
+     Folio 2 de 3
+     [?] 03: [?] [?] estado: guncional con uso. Y alofr registrado 131 calines-
+     [?] 04: cóomoda- rstado: euncional» con uso. Y [?] registrado: 156 calines-
+     [?] 05: ropero exento: estado: guncional, con USO: valor regis [?] 175 calines-
+     [?] 07- colchón: estado: euncional, con uso. Y [?] regis [?] 213 calines:
+     [?] 09- ¡ampara de PIe- estado: euncional» con USO: valor [?] [?]: 232 calines-
+     [?] 09 escritorio: [NOMBRE]: [?], con USO- valor regis [?] 251 calines-
+     [?] 10- panqueta- estado: guncional» con uso. Y alofr regis [?] 210 calines-
+     [?] 11 [NOMBRE] estado: guncional» con uso. Y alofr regis [?]: 289 calines-
+     La [?] [?] personal de [NOMBRE] r.[?] as [NOMBRE] constituye un ([?] instrument” y se [?] dos coma
+     [?] [?] cánones [?] [?] [?] a reformas no [?] Na garante recibe el mismo ejemplar
+     se [?] [?] de igual [?]> los anexos [?] integral el instrumento Las [?]
+     acreditar recepción y manifestación de [?], sin modificar las normas ¡[?] [?] de calípolis:
+     Retiro copia DN! [N]
+     rolio 9 de 3
+== C-308: 10 cláusulas
+  C01 K15 sim 0.95 válida
+  C02 K09 sim 0.95 válida | CIFRAS catálogo=una || ocr=una 5
+  C03 K18 sim 0.98 art.22 | CIFRAS catálogo=cuatro veintitres una cero coma noventa || ocr=cuatro una cero coma noventa 9
+  C04 K02 sim 0.92 válida
+  C05 K06 sim 0.92 válida | CIFRAS catálogo=una || ocr=10 una
+  C06 K24 sim 0.87 art.4
+  C07 K07 sim 0.75 válida | CIFRAS catálogo= || ocr=8 1 308
+  C08 K31 sim 0.96 art.12 | CIFRAS catálogo=uno coma treinta cinco una cero coma cuarenta cinco || ocr=uno coma cinco una cero coma cuarenta cinco 9
+  C09 K08 sim 0.96 válida
+  C10 K32 sim 0.93 válida | CIFRAS catálogo=una || ocr=una 1
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     CONTRA TO DE [?] [NOMBRE] [?]
+     Calípolis 99/09/2025, Instrumento de diez [?] [?] y ANexos,
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?] [?], Ante iNundación Materia] que “[?] de inmediasó la instalación Sléctrica, Podrá
+     9 [?] [?] [?], La en trega Materia “Omprende dos Juegos de llaves y la MProbación Conjunta del
+     T [?] de las [?], Se dejarg “Onstancia de la fecha de Tecepción, Una llave adiciona
+     Solicitag. [?] se "[?] a su Costo “Ocumentado Sin Cargo de Eestión,
+     10 [?] Una Suma “[?] Podrá [?] Como tal en la “ONstancia, Sin que Tecibir el
+     Documents, Mplique [?] [?] aj Teclamo de NNguna de las Partes,
+     fi ea [?], La COpia Integra y los AMexos sa [?], a la Parte locatari, doce días despues de la
+     Cláusuja [?], La y i 1 [?] :
+     Folio 1 [?]
+     [?] ¡importe indicado [?] [?] [?]. EN o no estipulado expresamente rige Y texto vigente de Las Leyes
+     de platón no se incorporan [?] externos NN condiciones de otros contratos:
+     adhesión no reintegradle de cero coma cuarenta y cinco al [?] [?], «aministrado por el yocador- su
+     prueba absoluta de culpa [?] conformidad con UN cargo rodavía no individualizado:
+     cláusula [?].Se gutoriza por escrito 1a cesión ge una pabitación al ocupante ¡[?] [?] solicitud,
+     Las partes recorriero?! la unidad antes de recibir ¡as [?] Se comprobó apertura ge puerta paso de
+     instalaciones ocultas: cada observ [?] posterior se [?] con fecha Y se comunicará por UN
+     [?] [?] se observan marcas uniformes ¡[?] al ventanal y una variación [?] de [?] EN la pared
+     opuesta. No se atribuye origen pu [?]” por esas marcas en esta acta. EN ¿| [?] se deja UNA
+     cotografía del revestimiento y de as juntas- Las partes podrán [?] ar copias de igual resolución:
+     E] tablero se encuentra [?] pasillo qe acceso- Se entregó 1a idicación de corte general [?] ubicación de
+     residentes: QFICINA DE OCACIONI S
+     ¡a lectura de ¿uministro se anoto al ingreso para [?] consumos posteriores de Y eriodos anteriores:
+     unidad, pero el plano ¿aministrativo del edificio permanece [?] oficina Y [?] incorpora como
+     Las opservaciones realizadas qurante el recorrido se conservarán ¡[?] a este gocumento- No haY en este
+     [?] copia firmada €" oficina:
+     a NV SN
+     rolio?2 de 3
+     [[?] CON DATOS PERSONALES OMITIDO: garantía personal]
+     coma cuarenta cánones [?]. No se [?] a reformas no [?]. El garante recibe el misMO
+     [[?] CON DATOS PERSONALES OMITIDO]
+     Folio 3 de 3
+== C-309: 10 cláusulas
+  C01 K04 sim 0.99 art.11
+  C02 K05 sim 0.95 válida | CIFRAS catálogo=nueve || ocr=
+  C03 K09 sim 0.94 válida
+  C04 K27 sim 0.93 art.16
+  C05 K22 sim 0.96 válida
+  C06 K08 sim 0.95 válida | CIFRAS catálogo= || ocr=9
+  C07 K02 sim 0.93 válida | CIFRAS catálogo=dos una || ocr=dos
+  C08 K07 sim 0.92 válida
+  C09 K01 sim 0.93 art.12
+  C10 K06 sim 0.92 válida | CIFRAS catálogo=una || ocr=una 1
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     calipolis> 10/09/2028: instrumento de diez ¿[?] y anexos-
+     unidad tocada [DOMICILIO]- canon [?] por ciclo: 1300 calines:
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?] cláusula c[N]e pactar queve ciclos por cursada remporal con constancia [?] oficina anterior [?]
+     KC cláusula [?].E [?] municipal que grava la [?] del ¿inmueble se (raslada integr [?] al
+     prueba apsoluta qe culpa 9 de conformidad con UN cargo rodavía no individualizado.
+     solicitada ¿[?]” se reintegrara a su Costo gocumentado: sin cargo de gestión-
+     folio 1 de 3
+     [?] ua [?].1a unidad se destina a pabitación- E canol se expresa [?] [?] en calines y se ja
+     [?] importe indicado [?] [?] [?] [?] NO estipulado expresament rige e Texto vigente de Las Leyes
+     de plató [?] incorpora cormularios externos a condiciones qe otros contratos:
+     ¿[?] [?].1a parte jocataria entrega un deposito qe UNO coma noventa canones [?] vivienda se
+     mputación- una suma aiscutida podrá registrarse como [?] en la constancia» sin que recibir el
+     Las partes recorriero" 1a unidad antes de recibir as [?] es. Se comprobó apertura de puerta. paso de
+     [?] [?] se [?] an marcas uniformes [?] a ventanal y una variación [?] de +[?] eN la pared
+     [?] [?] del Te [?] y de [?] ¡untas Las partes [?] an [?] ar copias de [?] resolución:
+     El rablero se encuentra [?] pasillo de acceso- se entregó 1a indicación de corte general [?] ubicación de
+     ¡a [?] de agua ta recepción de esas indicacione no autoriza [?] [?] en [?] vi sustituye la
+     asistencia [NOMBRE] cuando resulte necesaria se tilizará el contacto gesignado para coordinar las rareas-
+     queda" [?]* los espacios qe uso común ¿[?] gescanso de escalera y [?] de yentilación:
+     La [?] de esos espacios no autoriza a gepositar muebles vi impide su [?] por los
+     gemas ocupantes Las incidendias se registral con gescripción del mecho Y sin publicar datos de
+     ¡a lectura de [?] ¿e anotó al ingreso para [?] co [?] eo de periodos anterioret
+     a a V A A A , QA 4 + +
+     Toda [?] debera [?] el periodo y [?] ar [?] a r [NOMBRE] [?] [?] ¡[?] la
+     Las [?] [?] realizadas qurante el recorrido se conservarán ¡[?] a este gocumento” No hay en este
+     ANEXO [N]NV [?] [NOMBRE] Y cONST [?]
+     La unidad se entrega sin muebles exento Se verifican puerta ventana» calefón [?] Y mesada de cocina
+     como [?] del iy mueble, sin [?] un valof de depósito separado
+     rolio 2 de 3
+     constanci oficina de Locaciones [N]: cursoda ¿[?]?! de nueve ciclos» emitido el 0/08/20»
+     onterior ja firma Se conserva otra viviendo [?]! [?] en [?] de los [NOMBRE] [N] piso
+     6, unidod 3, calípois- No e solicita refugio por [?]? médico:
+     La [?] personal de [NOMBRE] [NOMBRE] [?]! constituys yn ÚNICO instruments y Se [?] 4 dos coma
+     cuarento ¿[?] [?] No se [?] * reformas no [?]: El garante recibe e) mismo ejemplar
+     ge firmo" ejemplares de ¡[?]! [?]" los onexos [?] ¡[?]" el instrument? Las firmas
+     [[?] CON DATOS PERSONALES OMITIDO]
+     rolio 9 de 3
+== C-310: 10 cláusulas
+  C01 K08 sim 0.82 válida | CIFRAS catálogo= || ocr=9 5
+  C02 K03 sim 0.88 art.18
+  C03 K17 sim 0.84 válida | CIFRAS catálogo=ocho coma nueve ciento cuatro doce ciento || ocr=ocho coma ciento doce
+  C04 K02 sim 0.80 válida
+  C05 K19 sim 0.82 art.17 | CIFRAS catálogo=treinta || ocr=5
+  C06 K35 sim 0.75 válida | CIFRAS catálogo= || ocr=5
+  C07 K36 sim 0.82 art.24
+  C08 K09 sim 0.96 válida
+  C09 K06 sim 0.92 válida
+  C10 K07 sim 0.96 válida
+  -- líneas no explicadas por textos conocidos (anonimizadas):
+     CONTR, To DE [NOMBRE] [NOMBRE] [?]
+     [NOMBRE], 11/09/20, [?],, de diez [?] [?] y Mexos
+     [NOMBRE] lOcada. [DOMICILIO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [NOMBRE] [?]. [?] te [?]; [NOMBRE] DN 35, 980, 732. [NOMBRE] T/[NOMBRE], *[N], [N] [NOMBRE], [DOMICILIO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?]. [NOMBRE] [?], [?] [?], DN[N]; [NOMBRE] T/[NOMBRE], [N].- [NOMBRE], [?] de a
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [NOMBRE] [NOMBRE]. [N] go
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [[?] CON DATOS PERSONALES OMITIDO]
+     [?] [?] Co, Los bienes [?], Y su Estado se [?], EN el [?] [?], Las Partes
+     Me [?] Sus Copias y Podrá, Compania, [?],s “[?] Ningun, iMagen, ni firma se [?],
+     Ss [?], [?], de Culpa 9 de [?] Con un Cargo toda Vía no [?].
+     NS Y Sin [?] de “[?] del *[?] AUngue no EXista Mergencia
+     [?], [?], La o [?], [?], Podrs [?], Ocho Coma [?] Por Ciento Cada [?] [?] Ciclos Con
+     S Probación “[?], Previa libros [?].s e [?], [?] de greso del doce Por Siento,
+     Ñ cl [?] to de las [?] Se dejara CONStanci, de la fecha de “Ecepción Una llave [?]
+     Y licitag, [?] Se [?].: [?] Costo [?] Sin Cargo de Sestión,
+     [?] [?] [?], Toda [?] [?] Será [?], Por ej locado, dentr, de [NOMBRE], días de [?],
+     el a [?]; [?]) Plazo se [?]; al Peligro [?]; Para el [?],5 [?];
+     [?] [?] [?], Sólo Podrá, “[?], daños [?], pr [?], en ACta y “[?] Sin
+     [?] [?] [?] Ante [?], deuda de Canon, el locado, Podrs Cortap el [?],, de AU y [?];, la
+     Folio 1 de 3
+     Cláusula [?], El locador [?] Tecibo sin Costo por cada [?], Percibida, [?], Periodo e
+     Las Partes "[?] la Unidad antes de Tecibir las llaves, Se [?] Pertura de Puerta, Paso de
+     AGUA en Cocina Y baño Y [?],o de los [?], La Tevisión no COnstituya EXamen de
+     Nstalacione, OCultas. Cada [?], Posterio;. se [?]; con fecha Y se [?] Por un
+     El tablero se NCuentra EN el Pasillo de ACCEso, Se en [?] la indicación de Corte Eenera] Y la Ubicación de
+     la [?] Ve de AGUA, La Tecepción de esas [?], no Atoriza a in ([?] en “ONductores ni Sustituy, la
+     ASistencia técnica Cuando Tesulte Necesaria Se Utilizar; el Contacto designado Para Coordina, las tareas,
+     to : , [NOMBRE] , Cs [?] [?] , ,
+     La “[?] de ón [?] se “[?] al INgreso Para [?], Co, ES [?] de Períodos [?]
+     Toda [?] [NOMBRE] deberg [?] el Periodo y CONserya, Su [?] [?], La Carátula [?] [?] la
+     Las Bservacion es ¡[?] [?], te el [?] se [?], Junto a Este [?], No hay EN Este
+     Anexo Una e [?] Aticipada Con daños futuros, La Ntrega de Posesión Y la Tendición de dinero
+     Son actos [?] [?] y ca da uno debe [?] Por Eparado,
+     Folio 2 de 3
+     Unidad tiene CONStancia de Protección, La TeVisión Queda Sujeta a Mantener las “Ondiciones Pactadas
+     La EArantía Persona] de [NOMBRE] [NOMBRE] [?] CONstituy, UN único instrumento y se limita a dos Coma
+     Cuarenta Cánones base, No se [?] a Teformas no [?] El Earante Tecibe e] Mismo ejemplar
+     Retirg [?] DN, ÓS, 936,270
+     Folio 3 de 3

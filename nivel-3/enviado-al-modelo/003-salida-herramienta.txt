@@ -1,0 +1,18 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/n3/nivel-3/contratos && for f in C-3*.pdf; do p=$(pdfinfo $f | awk '/^Pages/{print $2}'); c=$(pdftotext $f - 2>/dev/null | wc -c | tr -d ' '); i=$(pdfimages -list $f 2>/dev/null | tail -n +3 | wc -l | tr -d ' '); echo "$f paginas=$p caracteres_texto_incrustado=$c imagenes=$i"; done; pdfimages -list C-301.pdf | head -4 | awk '{print $4, $5, $6, $13, $14}'
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-302.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-303.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-304.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-305.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-306.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-307.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-308.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-309.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+C-310.pdf paginas=3 caracteres_texto_incrustado=3 imagenes=3
+width height color x-ppi y-ppi
+    
+1432 1960 rgb 173 168
+1696 2321 rgb 205 198

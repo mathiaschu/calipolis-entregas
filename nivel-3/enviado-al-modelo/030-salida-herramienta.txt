@@ -1,0 +1,27 @@
+COMANDO EJECUTADO LOCALMENTE:
+B=/Users/MathiasChu/dev/calipolis-entregas-nivel3-intento-anterior; mv /Users/MathiasChu/dev/calipolis-entregas/nivel-3 $B && mkdir -p /Users/MathiasChu/dev/calipolis-entregas/nivel-3/ocr /Users/MathiasChu/dev/calipolis-entregas/nivel-3/codigo /Users/MathiasChu/dev/calipolis-entregas/nivel-3/enviado-al-modelo/intento-anterior && cp $B/enviado-al-modelo/* /Users/MathiasChu/dev/calipolis-entregas/nivel-3/enviado-al-modelo/intento-anterior/ && cp /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/ocr/C-3*.txt /Users/MathiasChu/dev/calipolis-entregas/nivel-3/ocr/ && cp /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/codigo/*.py /Users/MathiasChu/dev/calipolis-entregas/nivel-3/codigo/ && cp /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/hallazgos.json /Users/MathiasChu/dev/calipolis-entregas/nivel-3/ && cp /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/README-nivel3.md /Users/MathiasChu/dev/calipolis-entregas/nivel-3/README.md && cp /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/bin/L /Users/MathiasChu/dev/calipolis-entregas/nivel-3/codigo/L.sh && cd /Users/MathiasChu/dev/calipolis-entregas && python3 -I scripts/validar.py nivel-3/hallazgos.json && find nivel-3 -type f | grep -v enviado | sort && ls nivel-3/enviado-al-modelo/intento-anterior
+
+SALIDA RECIBIDA POR EL MODELO:
+OK: nivel-3/hallazgos.json
+nivel-3/README.md
+nivel-3/codigo/L.sh
+nivel-3/codigo/anonimizar.py
+nivel-3/codigo/armar_hallazgos.py
+nivel-3/codigo/chequeos.py
+nivel-3/codigo/clasificar.py
+nivel-3/codigo/ocr_local.py
+nivel-3/codigo/reglas.py
+nivel-3/codigo/revisar.py
+nivel-3/codigo/ventana.py
+nivel-3/hallazgos.json
+nivel-3/ocr/C-301.txt
+nivel-3/ocr/C-302.txt
+nivel-3/ocr/C-303.txt
+nivel-3/ocr/C-304.txt
+nivel-3/ocr/C-305.txt
+nivel-3/ocr/C-306.txt
+nivel-3/ocr/C-307.txt
+nivel-3/ocr/C-308.txt
+nivel-3/ocr/C-309.txt
+nivel-3/ocr/C-310.txt
+10-textos-anonimizados-leidos.txt

@@ -1,0 +1,25 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/codigo && python3 chequeos.py fechas C-301 C-302 C-303 C-304 C-305 C-306 C-307 C-308 C-309 C-310; python3 chequeos.py inventario C-301 C-303 C-307; python3 chequeos.py frase C-310 'ningun hogar de esta unidad tiene constancia de proteccion'; python3 chequeos.py frase C-310 'un hogar de esta unidad tiene constancia de proteccion'; python3 chequeos.py frase C-310 'no hay hogar protegido'; python3 chequeos.py cifras C-310 'la cooperativa inscripta podra ajustar' 12; python3 chequeos.py cifras C-310 'toda reparacion estructural sera resuelta por el locador dentro de' 4; python3 chequeos.py cifras C-308 'ademas del deposito ordinario de' 8; python3 chequeos.py cifras C-305 'durante un ciclo tres visitantes pernoctan' 30; python3 chequeos.py cifras C-302 'se autoriza un perro de asistencia de' 4
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301 ['2/09/2026']
+C-302 ['03/09/2026', '20/08/2026']
+C-303 []
+C-304 ['95/09/2025']
+C-305 ['99/08/2028']
+C-306 []
+C-307 ['8/09/2028']
+C-308 ['99/09/2025']
+C-309 ['10/09/2028', '0/08/20']
+C-310 ['11/09/20', '21/08/2025']
+C-301: renglones de bienes=12, con 'funcional'=12, con señales de no funcional=0
+C-303: renglones de bienes=8, con 'funcional'=0, con señales de no funcional=0
+C-307: renglones de bienes=11, con 'funcional'=9, con señales de no funcional=0
+C-310 frase 'ningun hogar de esta unidad tiene constancia de proteccion': similitud máxima 0.97
+C-310 frase 'un hogar de esta unidad tiene constancia de proteccion': similitud máxima 0.96
+C-310 frase 'no hay hogar protegido': similitud máxima 0.91
+C-310 ancla 'la cooperativa inscripta podra ajustar' sim 0.74: ≈ocho ≈una · · · ≈por ≈una ≈ocho ≈coma ≈una ≈por ≈ciento ≈cada ≈una ≈tres ≈ciclos ≈ocho
+C-310 ancla 'toda reparacion estructural sera resuelta por el locador dentro de' sim 0.85: · ≈dos ≈cada · · ≈seis · ≈por · ≈cada · ≈doce ≈veinte ≈dias
+C-308 ancla 'ademas del deposito ordinario de' sim 0.94: ≈seis ≈doce · · ≈doce ≈uno ≈coma ≈treinta · ≈cinco ≈canones ≈base ≈seis
+C-305 ancla 'durante un ciclo tres visitantes pernoctan' sim 0.57: · ≈por ≈diez ≈una ≈una ≈dos ≈seis ≈seis · · ≈una ≈dias ≈diez ≈ocho ≈seis · ≈treinta ≈ocho ≈diez · · ≈seis ≈por · · ≈diez ≈cada · ≈seis ≈veinte · ≈dos ≈coma ≈nueve ≈por ≈ciento
+C-302 ancla 'se autoriza un perro de asistencia de' sim 0.95: · ≈uno ≈por ≈diez · ≈diez ≈veinte ≈cuatro · ≈dos ·

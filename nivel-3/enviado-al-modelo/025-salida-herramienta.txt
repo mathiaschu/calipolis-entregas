@@ -1,0 +1,22 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd ~/dev/calipolis-entregas/nivel-3 && find . -type f | sed 's|^|  |' | head -40 && find . -type f -path './enviado-al-modelo/*' -exec wc -c {} + | tail -1; ls -la /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/enviado | wc -l
+
+SALIDA RECIBIDA POR EL MODELO:
+  ./ocr/C-302.txt
+  ./ocr/C-303.txt
+  ./ocr/C-301.txt
+  ./ocr/C-310.txt
+  ./ocr/C-304.txt
+  ./ocr/C-305.txt
+  ./ocr/C-307.txt
+  ./ocr/C-306.txt
+  ./ocr/C-308.txt
+  ./ocr/C-309.txt
+  ./enviado-al-modelo/10-textos-anonimizados-leidos.txt
+  ./README.md
+  ./codigo/ocr.py
+  ./codigo/enderezar.py
+  ./codigo/anonimizar.py
+  ./hallazgos.json
+   64233 ./enviado-al-modelo/10-textos-anonimizados-leidos.txt
+      27

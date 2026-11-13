@@ -1,0 +1,5 @@
+COMANDO EJECUTADO LOCALMENTE (sin envoltorio, registrado a mano):
+ls enviado; grep -l de marcas de incidentes en enviado/*.txt
+
+SALIDA RECIBIDA POR EL MODELO:
+Listado de enviado/ (000 a 025 y 00-LEEME-declaracion.md) y nombres de archivo: CON DATOS PERSONALES -> 019, 021; "solerán sel arín" -> 015; "soler an" -> 019, 021; "DN 35, 980" -> 021.

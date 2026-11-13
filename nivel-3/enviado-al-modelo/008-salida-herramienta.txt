@@ -1,0 +1,12 @@
+COMANDO EJECUTADO LOCALMENTE:
+which magick convert; python3 -c 'import PIL, numpy; print("PIL", PIL.__version__, "numpy", numpy.__version__)' 2>&1; python3 -c 'import cv2; print("cv2", cv2.__version__)' 2>&1 | tail -1
+
+SALIDA RECIBIDA POR EL MODELO:
+/opt/homebrew/bin/magick
+/opt/homebrew/bin/convert
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import PIL, numpy; print("PIL", PIL.__version__, "numpy", numpy.__version__)
+    ^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'PIL'
+ModuleNotFoundError: No module named 'cv2'

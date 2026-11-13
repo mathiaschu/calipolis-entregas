@@ -1,0 +1,36 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata python3 -I codigo/ocr_local.py --pdfs n3/nivel-3/contratos --salida ocr --tmp trabajo 2>&1 | grep -v Warning; wc -c ocr/*.txt | tail -1
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301 página 1: rotación 0°, 426 palabras, confianza media 68.1
+C-301 página 2: rotación 0°, 500 palabras, confianza media 52.7
+C-301 página 3: rotación 0°, 255 palabras, confianza media 80.7
+C-302 página 1: rotación 0°, 459 palabras, confianza media 76.7
+C-302 página 2: rotación 0°, 460 palabras, confianza media 80.6
+C-302 página 3: rotación 0°, 125 palabras, confianza media 79.9
+C-303 página 1: rotación 0°, 431 palabras, confianza media 65.4
+C-303 página 2: rotación 0°, 480 palabras, confianza media 67.6
+C-303 página 3: rotación 0°, 259 palabras, confianza media 47.7
+C-304 página 1: rotación 0°, 476 palabras, confianza media 63.7
+C-304 página 2: rotación 0°, 466 palabras, confianza media 75.5
+C-304 página 3: rotación 0°, 101 palabras, confianza media 64.9
+C-305 página 1: rotación 0°, 440 palabras, confianza media 53.4
+C-305 página 2: rotación 0°, 456 palabras, confianza media 84.5
+C-305 página 3: rotación 0°, 145 palabras, confianza media 72.1
+C-306 página 1: rotación 0°, 435 palabras, confianza media 80.4
+C-306 página 2: rotación 0°, 436 palabras, confianza media 85.3
+C-306 página 3: rotación 0°, 98 palabras, confianza media 86.6
+C-307 página 1: rotación 0°, 413 palabras, confianza media 72.6
+C-307 página 2: rotación 0°, 466 palabras, confianza media 94.3
+C-307 página 3: rotación 90°, 464 palabras, confianza media 94.7
+C-307 página 4: rotación 0°, 254 palabras, confianza media 67.2
+C-308 página 1: rotación 0°, 337 palabras, confianza media 76.3
+C-308 página 2: rotación 0°, 473 palabras, confianza media 76.5
+C-308 página 3: rotación 0°, 117 palabras, confianza media 84.0
+C-309 página 1: rotación 0°, 421 palabras, confianza media 72.3
+C-309 página 2: rotación 0°, 427 palabras, confianza media 67.8
+C-309 página 3: rotación 0°, 114 palabras, confianza media 64.4
+C-310 página 1: rotación 0°, 470 palabras, confianza media 65.9
+C-310 página 2: rotación 0°, 286 palabras, confianza media 74.8
+C-310 página 3: rotación 0°, 142 palabras, confianza media 79.1
+   69391 total

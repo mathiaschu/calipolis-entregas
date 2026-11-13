@@ -1,0 +1,16 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/enviado && for p in 'DE PARTES OMITIDO' 'cel arín' 'contr ato c-39' 'SALIDA RECIBIDA'; do printf '%s -> ' "$p"; grep -l "$p" 0*.txt | tr '\n' ' '; echo; done; head -2 015-salida-herramienta.txt; head -2 017-salida-herramienta.txt; head -2 019-salida-herramienta.txt; head -2 021-salida-herramienta.txt
+
+SALIDA RECIBIDA POR EL MODELO:
+DE PARTES OMITIDO -> 017-salida-herramienta.txt 
+cel arín -> 
+contr ato c-39 -> 015-salida-herramienta.txt 
+SALIDA RECIBIDA -> 002-salida-herramienta.txt 003-salida-herramienta.txt 004-salida-herramienta.txt 005-salida-herramienta.txt 006-salida-herramienta.txt 007-salida-herramienta.txt 008-salida-herramienta.txt 009-salida-herramienta.txt 010-salida-herramienta.txt 011-salida-herramienta.txt 012-salida-herramienta.txt 013-salida-herramienta.txt 014-salida-herramienta.txt 015-salida-herramienta.txt 016-salida-herramienta.txt 017-salida-herramienta.txt 018-salida-herramienta.txt 019-salida-herramienta.txt 020-salida-herramienta.txt 021-salida-herramienta.txt 022-salida-herramienta.txt 023-salida-herramienta.txt 024-salida-herramienta.txt 025-salida-herramienta.txt 026-salida-herramienta.txt 
+COMANDO EJECUTADO LOCALMENTE:
+cat /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/anon/C-301.txt
+COMANDO EJECUTADO LOCALMENTE:
+/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/bin/ver.sh C-302.txt C-303.txt C-304.txt
+COMANDO EJECUTADO LOCALMENTE:
+/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/bin/ver.sh C-304.txt C-305.txt
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && rm -rf anon && python3 -I codigo/anonimizar.py --ocr ocr --salida anon --vocabulario /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/leyes-de-platon.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nucleos.txt && cd codigo && python3 revisar.py --ocr ../ocr --anon ../anon --clasif ../clasif.json --conocidos /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md

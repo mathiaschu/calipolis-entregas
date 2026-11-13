@@ -1,0 +1,16 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && ls trabajo/C-301/ && sips -g pixelWidth -g pixelHeight -g bitsPerSample -g hasAlpha -g space trabajo/C-301/p-000.png | tail -5; for psm in 3 4 6; do printf 'psm %s spa: ' $psm; TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract trabajo/C-301/p-000.png - -l spa --psm $psm 2>&1 | wc -c; done; printf 'eng sistema: '; tesseract trabajo/C-301/p-000.png - -l eng --psm 3 2>&1 | wc -c
+
+SALIDA RECIBIDA POR EL MODELO:
+p-000.png
+p-001.png
+p-002.png
+  pixelWidth: 1432
+  pixelHeight: 1960
+  bitsPerSample: 8
+  hasAlpha: no
+  space: RGB
+psm 3 spa:        0
+psm 4 spa:        0
+psm 6 spa:     2671
+eng sistema:        0

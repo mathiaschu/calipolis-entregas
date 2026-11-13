@@ -26,7 +26,7 @@ Cada nivel tiene su propia carpeta con el archivo que pide el enunciado y un REA
 |---|---|---|
 | 1 | [`nivel-1/hallazgos.json`](nivel-1/hallazgos.json) | Entregado |
 | 2 | [`nivel-2/hallazgos.json`](nivel-2/hallazgos.json) y [`nivel-2/codigo/`](nivel-2/codigo/) | Entregado |
-| 3 | Pendiente | |
+| 3 | [`nivel-3/hallazgos.json`](nivel-3/hallazgos.json), [`ocr/`](nivel-3/ocr/) y [`enviado-al-modelo/`](nivel-3/enviado-al-modelo/) | Entregado (ver declaración de incidentes) |
 | 4 | Pendiente | |
 | 5 | Pendiente | |
 

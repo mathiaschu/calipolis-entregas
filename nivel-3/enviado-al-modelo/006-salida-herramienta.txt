@@ -1,0 +1,5 @@
+COMANDO EJECUTADO LOCALMENTE:
+cp -R /opt/homebrew/share/tessdata/configs /opt/homebrew/share/tessdata/tessconfigs /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata/ 2>&1; cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract trabajo/C-301/p-000.png - -l spa --psm 1 2>&1 >/dev/null | head -5; TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract trabajo/C-301/p-000.png - -l spa --psm 1 2>/dev/null | wc -c
+
+SALIDA RECIBIDA POR EL MODELO:
+       0

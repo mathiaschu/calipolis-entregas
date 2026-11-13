@@ -1,0 +1,12 @@
+COMANDO EJECUTADO LOCALMENTE:
+mkdir -p /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata && cp /opt/homebrew/share/tessdata/osd.traineddata /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata/ && curl -sSL -o /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata/spa.traineddata https://github.com/tesseract-ocr/tessdata_best/raw/main/spa.traineddata && ls -la /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata && TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract --list-langs
+
+SALIDA RECIBIDA POR EL MODELO:
+total 48232
+drwxr-xr-x  4 MathiasChu  wheel       128 Nov 12 21:56 .
+drwx------  6 MathiasChu  wheel       192 Nov 12 21:56 ..
+-rw-r--r--  1 MathiasChu  wheel  10562727 Nov 12 21:56 osd.traineddata
+-rw-r--r--  1 MathiasChu  wheel  13570187 Nov 12 21:56 spa.traineddata
+List of available languages in "/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata/" (2):
+osd
+spa

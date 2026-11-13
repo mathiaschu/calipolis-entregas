@@ -1,0 +1,36 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/codigo && python3 armar_hallazgos.py ../clasif.json ../hallazgos.json && python3 -I /Users/MathiasChu/dev/calipolis-entregas/scripts/validar.py ../hallazgos.json
+
+SALIDA RECIBIDA POR EL MODELO:
+30 hallazgos
+C-301 C01 11 
+C-301 C02 5 
+C-301 C10 19 
+C-302 C01 4 
+C-302 C06 16 
+C-302 C08 8 
+C-303 C02 18 
+C-303 C06 14 F-076
+C-303 C08 22 F-003,F-115
+C-304 C02 17 
+C-304 C03 12 
+C-304 C05 16 F-037,F-002
+C-305 C05 24 
+C-305 C06 20 F-058
+C-305 C07 14 
+C-306 C05 37 
+C-306 C09 8 
+C-306 C10 18 F-106,F-089
+C-307 C04 5 
+C-307 C06 26 F-104
+C-307 C08 19 
+C-308 C03 22 F-003,F-115
+C-308 C06 4 
+C-308 C08 12 F-097
+C-309 C01 11 
+C-309 C04 16 
+C-309 C09 12 
+C-310 C02 18 
+C-310 C05 17 
+C-310 C07 24 
+OK: ../hallazgos.json

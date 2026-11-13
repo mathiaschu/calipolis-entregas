@@ -1,0 +1,10 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/codigo && python3 -I - <<'EOF'
+p='anonimizar.py'; s=open(p,encoding='utf-8').read()
+s=s.replace('RE_NUM4 = re.compile(r"\\d[\\d.\\-/ ]{2,}\\d|\\d{4,}")','RE_NUM4 = re.compile(r"\\d[\\d.,\\-/ ]{2,}\\d|\\d{4,}")  # con comas: corrige la fuga de C-310')
+open(p,'w',encoding='utf-8').write(s)
+EOF
+grep -n 'RE_NUM4 =' anonimizar.py
+
+SALIDA RECIBIDA POR EL MODELO:
+39:RE_NUM4 = re.compile(r"\d[\d.,\-/ ]{2,}\d|\d{4,}")  # con comas: corrige la fuga de C-310

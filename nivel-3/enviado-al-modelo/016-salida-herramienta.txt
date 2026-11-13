@@ -1,0 +1,14 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && rm -rf anon && python3 -I codigo/anonimizar.py --ocr ocr --salida anon --vocabulario /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/leyes-de-platon.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nucleos.txt
+
+SALIDA RECIBIDA POR EL MODELO:
+C-301 {'bloque_partes': 1, 'domicilio': 0, 'numero': 5, 'desconocida': 286, 'nombre': 3}
+C-302 {'bloque_partes': 1, 'domicilio': 1, 'numero': 2, 'desconocida': 173, 'nombre': 1}
+C-303 {'domicilio': 3, 'numero': 21, 'desconocida': 398, 'nombre': 3}
+C-304 {'bloque_partes': 1, 'domicilio': 0, 'numero': 2, 'desconocida': 135}
+C-305 {'bloque_partes': 1, 'domicilio': 0, 'numero': 3, 'desconocida': 106, 'nombre': 1}
+C-306 {'domicilio': 5, 'numero': 21, 'desconocida': 128, 'nombre': 10}
+C-307 {'bloque_partes': 1, 'domicilio': 0, 'numero': 2, 'desconocida': 147, 'nombre': 2}
+C-308 {'bloque_partes': 1, 'domicilio': 0, 'numero': 1, 'desconocida': 103, 'nombre': 3}
+C-309 {'bloque_partes': 1, 'domicilio': 0, 'numero': 6, 'desconocida': 218, 'nombre': 1}
+C-310 {'bloque_partes': 1, 'domicilio': 0, 'numero': 1, 'desconocida': 156, 'nombre': 2}

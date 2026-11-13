@@ -1,0 +1,8 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && wc -c ocr/*.txt | tail -3; TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract trabajo/C-301/p-000.png - -l spa --psm 1 tsv 2>&1 | head -2 | cut -c1-120 | sed -E 's/\t[^\t]*$/\t<texto omitido>/'
+
+SALIDA RECIBIDA POR EL MODELO:
+       0 ocr/C-309.txt
+       0 ocr/C-310.txt
+       0 total
+read_params_file: Can't open tsv

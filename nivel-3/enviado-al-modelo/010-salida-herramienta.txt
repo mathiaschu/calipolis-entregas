@@ -1,0 +1,7 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/trabajo/C-301 && magick p-000.png -colorspace Gray -resize 300% -deskew 40% -normalize pre-c.png && magick p-000.png -colorspace Gray -resize 200% -deskew 40% -normalize -unsharp 0x1 pre-d.png && magick p-000.png -colorspace Gray -resize 200% -deskew 40% -normalize -despeckle -level 10%,90% pre-e.png && for img in pre-c.png pre-d.png pre-e.png; do r=$(TESSDATA_PREFIX=/private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad/tessdata tesseract $img - -l spa --psm 6 tsv 2>/dev/null | awk -F'\t' 'NR>1 && $12!="" && $11>=0 {n++; s+=$11} END {printf "%d palabras, conf %.1f", n, (n?s/n:0)}'); echo "$img psm 6: $r"; done
+
+SALIDA RECIBIDA POR EL MODELO:
+pre-c.png psm 6: 436 palabras, conf 65.8
+pre-d.png psm 6: 425 palabras, conf 64.9
+pre-e.png psm 6: 426 palabras, conf 68.1

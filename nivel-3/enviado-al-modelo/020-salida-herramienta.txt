@@ -1,0 +1,126 @@
+COMANDO EJECUTADO LOCALMENTE:
+cd /private/tmp/claude-501/-Users-MathiasChu-Documents-Claude-Code/9a2989f7-6591-400c-b204-578305abc01f/scratchpad && time python3 -I codigo/clasificar.py --ocr ocr --contratos-previos /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-1/nivel-1/contratos/C-10*.md /private/tmp/claude-501/-Users-MathiasChu--claude-spares-spare-HmL2jl/b73481f9-8160-4dc9-9ff8-1d5a062df53d/scratchpad/nivel-2/nivel-2/contratos/C-2*.md --hallazgos-previos /Users/MathiasChu/dev/calipolis-entregas/nivel-1/hallazgos.json /Users/MathiasChu/dev/calipolis-entregas/nivel-2/hallazgos.json --json clasif.json
+
+SALIDA RECIBIDA POR EL MODELO:
+Catálogo: 36 redacciones distintas
+== C-301: 11 coincidencias
+   pos  1064 | cláusula leída c ? | K04 (C-101/C04) | sim 0.94 | art. 11
+   pos  1064 | cláusula leída c ? | K28 (C-202/C08) | sim 0.63 | válida en niveles previos
+   pos  1240 | cláusula leída c 0 | K13 (C-102/C07) | sim 0.91 | art. 5
+   pos  1368 | cláusula leída c ? | K07 (C-101/C07) | sim 0.93 | válida en niveles previos
+   pos  1656 | cláusula leída c94 | K09 (C-101/C09) | sim 0.96 | válida en niveles previos
+   pos  1936 | cláusula leída c ? | K02 (C-101/C02) | sim 0.93 | válida en niveles previos
+   pos  2208 | cláusula leída c06 | K06 (C-101/C06) | sim 0.96 | válida en niveles previos
+   pos  2456 | cláusula leída c ? | K11 (C-102/C03) | sim 0.69 | válida en niveles previos
+   pos  2704 | cláusula leída c ? | K08 (C-101/C08) | sim 0.57 | válida en niveles previos
+   pos  2864 | cláusula leída c ? | K15 (C-102/C09) | sim 0.59 | válida en niveles previos
+   pos  3056 | cláusula leída c ? | K29 (C-203/C02) | sim 0.71 | art. 19
+== C-302: 11 coincidencias
+   pos  1112 | cláusula leída c01 | K24 (C-201/C08) | sim 0.96 | art. 4
+   pos  1224 | cláusula leída c ? | K07 (C-101/C07) | sim 0.96 | válida en niveles previos
+   pos  1512 | cláusula leída c 0 | K05 (C-101/C05) | sim 0.94 | válida en niveles previos
+   pos  1704 | cláusula leída c ? | K08 (C-101/C08) | sim 0.95 | válida en niveles previos
+   pos  1976 | cláusula leída c ? | K02 (C-101/C02) | sim 0.94 | válida en niveles previos
+   pos  2248 | cláusula leída c 0 | K27 (C-202/C07) | sim 0.90 | art. 16
+   pos  2424 | cláusula leída c ? | K06 (C-101/C06) | sim 0.65 | válida en niveles previos
+   pos  2720 | cláusula leída c ? | K14 (C-102/C08) | sim 0.98 | art. 8
+   pos  2856 | cláusula leída c ? | K09 (C-101/C09) | sim 0.97 | válida en niveles previos
+   pos  3112 | cláusula leída c ? | K29 (C-203/C02) | sim 0.56 | art. 19
+   pos  3136 | cláusula leída c ? | K10 (C-101/C10) | sim 0.94 | válida en niveles previos
+== C-303: 10 coincidencias
+   pos  1064 | cláusula leída c ? | K08 (C-101/C08) | sim 0.92 | válida en niveles previos
+   pos  1344 | cláusula leída c ? | K03 (C-101/C03) | sim 0.94 | art. 18
+   pos  1512 | cláusula leída c ? | K11 (C-102/C03) | sim 0.91 | válida en niveles previos
+   pos  1720 | cláusula leída c 5 | K02 (C-101/C02) | sim 0.91 | válida en niveles previos
+   pos  1992 | cláusula leída c 0 | K06 (C-101/C06) | sim 0.95 | válida en niveles previos
+   pos  2240 | cláusula leída c 0 | K26 (C-202/C05) | sim 0.92 | art. 14
+   pos  2560 | cláusula leída c07 | K30 (C-203/C05) | sim 0.88 | válida en niveles previos
+   pos  2720 | cláusula leída c ? | K18 (C-103/C06) | sim 0.95 | art. 22
+   pos  2872 | cláusula leída c ? | K09 (C-101/C09) | sim 0.90 | válida en niveles previos
+   pos  3136 | cláusula leída c ? | K07 (C-101/C07) | sim 0.91 | válida en niveles previos
+== C-304: 10 coincidencias
+   pos  1056 | cláusula leída c ? | K02 (C-101/C02) | sim 0.83 | válida en niveles previos
+   pos  1328 | cláusula leída c ? | K19 (C-103/C07) | sim 0.84 | art. 17
+   pos  1496 | cláusula leída c ? | K01 (C-101/C01) | sim 0.90 | art. 12
+   pos  1648 | cláusula leída c ? | K08 (C-101/C08) | sim 0.85 | válida en niveles previos
+   pos  1888 | cláusula leída c ? | K23 (C-201/C05) | sim 0.84 | art. 16
+   pos  2168 | cláusula leída c ? | K32 (C-203/C07) | sim 0.81 | válida en niveles previos
+   pos  2352 | cláusula leída c ? | K09 (C-101/C09) | sim 0.75 | válida en niveles previos
+   pos  2656 | cláusula leída c ? | K07 (C-101/C07) | sim 0.80 | válida en niveles previos
+   pos  2936 | cláusula leída c ? | K06 (C-101/C06) | sim 0.92 | válida en niveles previos
+   pos  3192 | cláusula leída c ? | K22 (C-201/C03) | sim 0.96 | válida en niveles previos
+== C-305: 12 coincidencias
+   pos   920 | cláusula leída c ? | K09 (C-101/C09) | sim 0.73 | válida en niveles previos
+   pos  1128 | cláusula leída c ? | K02 (C-101/C02) | sim 0.65 | válida en niveles previos
+   pos  1368 | cláusula leída c ? | K05 (C-101/C05) | sim 0.69 | válida en niveles previos
+   pos  1544 | cláusula leída c ? | K04 (C-101/C04) | sim 0.55 | art. 11
+   pos  1544 | cláusula leída c ? | K28 (C-202/C08) | sim 0.86 | válida en niveles previos
+   pos  1680 | cláusula leída c ? | K36 (C-216/C09) | sim 0.70 | art. 24
+   pos  1800 | cláusula leída c ? | K21 (C-201/C02) | sim 0.78 | art. 20
+   pos  1864 | cláusula leída c ? | K34 (C-205/C02) | sim 0.56 | válida en niveles previos
+   pos  2024 | cláusula leída c ? | K12 (C-102/C06) | sim 0.78 | art. 14
+   pos  2232 | cláusula leída c ? | K08 (C-101/C08) | sim 0.97 | válida en niveles previos
+   pos  2504 | cláusula leída c ? | K07 (C-101/C07) | sim 0.98 | válida en niveles previos
+   pos  2792 | cláusula leída c10 | K06 (C-101/C06) | sim 0.95 | válida en niveles previos
+== C-306: 11 coincidencias
+   pos  1128 | cláusula leída c ? | K02 (C-101/C02) | sim 0.98 | válida en niveles previos
+   pos  1416 | cláusula leída c ? | K08 (C-101/C08) | sim 0.97 | válida en niveles previos
+   pos  1696 | cláusula leída c ? | K06 (C-101/C06) | sim 0.97 | válida en niveles previos
+   pos  1960 | cláusula leída c ? | K09 (C-101/C09) | sim 0.97 | válida en niveles previos
+   pos  2240 | cláusula leída c ? | K16 (C-103/C01) | sim 0.96 | art. 37
+   pos  2400 | cláusula leída c ? | K07 (C-101/C07) | sim 0.98 | válida en niveles previos
+   pos  2768 | cláusula leída c ? | K20 (C-103/C08) | sim 0.98 | válida en niveles previos
+   pos  2952 | cláusula leída c ? | K29 (C-203/C02) | sim 0.62 | art. 19
+   pos  2976 | cláusula leída c ? | K10 (C-101/C10) | sim 0.97 | válida en niveles previos
+   pos  3136 | cláusula leída c ? | K14 (C-102/C08) | sim 0.96 | art. 8
+   pos  3280 | cláusula leída c10 | K25 (C-202/C03) | sim 0.99 | art. 18
+== C-307: 11 coincidencias
+   pos  1112 | cláusula leída c ? | K06 (C-101/C06) | sim 0.95 | válida en niveles previos
+   pos  1368 | cláusula leída c ? | K09 (C-101/C09) | sim 0.96 | válida en niveles previos
+   pos  1656 | cláusula leída c03 | K08 (C-101/C08) | sim 0.95 | válida en niveles previos
+   pos  1936 | cláusula leída c 0 | K13 (C-102/C07) | sim 0.97 | art. 5
+   pos  2064 | cláusula leída c 0 | K30 (C-203/C05) | sim 0.94 | válida en niveles previos
+   pos  2232 | cláusula leída c06 | K33 (C-203/C10) | sim 0.96 | art. 26
+   pos  2392 | cláusula leída c ? | K02 (C-101/C02) | sim 0.74 | válida en niveles previos
+   pos  2768 | cláusula leída c08 | K29 (C-203/C02) | sim 1.00 | art. 19
+   pos  2904 | cláusula leída c ? | K11 (C-102/C03) | sim 0.99 | válida en niveles previos
+   pos  2952 | cláusula leída c ? | K01 (C-101/C01) | sim 0.57 | art. 12
+   pos  3120 | cláusula leída c ? | K07 (C-101/C07) | sim 0.99 | válida en niveles previos
+== C-308: 10 coincidencias
+   pos  1128 | cláusula leída c01 | K15 (C-102/C09) | sim 0.95 | válida en niveles previos
+   pos  1344 | cláusula leída c ? | K09 (C-101/C09) | sim 0.95 | válida en niveles previos
+   pos  1632 | cláusula leída c ? | K18 (C-103/C06) | sim 0.98 | art. 22
+   pos  1792 | cláusula leída c ? | K02 (C-101/C02) | sim 0.92 | válida en niveles previos
+   pos  2072 | cláusula leída c ? | K06 (C-101/C06) | sim 0.92 | válida en niveles previos
+   pos  2312 | cláusula leída c ? | K24 (C-201/C08) | sim 0.87 | art. 4
+   pos  2512 | cláusula leída c ? | K07 (C-101/C07) | sim 0.75 | válida en niveles previos
+   pos  2792 | cláusula leída c ? | K31 (C-203/C06) | sim 0.96 | art. 12
+   pos  3088 | cláusula leída c ? | K08 (C-101/C08) | sim 0.96 | válida en niveles previos
+   pos  3360 | cláusula leída c ? | K32 (C-203/C07) | sim 0.93 | válida en niveles previos
+== C-309: 11 coincidencias
+   pos  1104 | cláusula leída c ? | K04 (C-101/C04) | sim 0.99 | art. 11
+   pos  1104 | cláusula leída c ? | K28 (C-202/C08) | sim 0.63 | válida en niveles previos
+   pos  1288 | cláusula leída c02 | K05 (C-101/C05) | sim 0.95 | válida en niveles previos
+   pos  1480 | cláusula leída c ? | K09 (C-101/C09) | sim 0.94 | válida en niveles previos
+   pos  1768 | cláusula leída c ? | K27 (C-202/C07) | sim 0.93 | art. 16
+   pos  1912 | cláusula leída c ? | K22 (C-201/C03) | sim 0.96 | válida en niveles previos
+   pos  2096 | cláusula leída c ? | K08 (C-101/C08) | sim 0.95 | válida en niveles previos
+   pos  2360 | cláusula leída c ? | K02 (C-101/C02) | sim 0.93 | válida en niveles previos
+   pos  2696 | cláusula leída c ? | K07 (C-101/C07) | sim 0.92 | válida en niveles previos
+   pos  2976 | cláusula leída c ? | K01 (C-101/C01) | sim 0.93 | art. 12
+   pos  3136 | cláusula leída c ? | K06 (C-101/C06) | sim 0.92 | válida en niveles previos
+== C-310: 10 coincidencias
+   pos  1080 | cláusula leída c 0 | K08 (C-101/C08) | sim 0.82 | válida en niveles previos
+   pos  1328 | cláusula leída c ? | K03 (C-101/C03) | sim 0.88 | art. 18
+   pos  1488 | cláusula leída c ? | K17 (C-103/C04) | sim 0.84 | válida en niveles previos
+   pos  1688 | cláusula leída c ? | K02 (C-101/C02) | sim 0.80 | válida en niveles previos
+   pos  1952 | cláusula leída c ? | K19 (C-103/C07) | sim 0.82 | art. 17
+   pos  2104 | cláusula leída c ? | K35 (C-208/C08) | sim 0.75 | válida en niveles previos
+   pos  2248 | cláusula leída c ? | K36 (C-216/C09) | sim 0.82 | art. 24
+   pos  2464 | cláusula leída c ? | K09 (C-101/C09) | sim 0.96 | válida en niveles previos
+   pos  2736 | cláusula leída c ? | K06 (C-101/C06) | sim 0.92 | válida en niveles previos
+   pos  2992 | cláusula leída c ? | K07 (C-101/C07) | sim 0.96 | válida en niveles previos
+
+real	1m18.972s
+user	1m18.319s
+sys	0m0.553s
